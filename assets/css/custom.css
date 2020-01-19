@@ -1,0 +1,16 @@
+.nav-item:hover { 
+    background-color: hsl(204, 100%, 50%, 0.4);
+    
+    
+}
+.nav-item { 
+    padding-top: 1%;    
+    padding-bottom: 1%;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin:0 !important;
+    border:0;
+}
