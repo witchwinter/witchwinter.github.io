@@ -54,27 +54,27 @@
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link font-weight-bold dropdown-toggle" href="games.html#league" style="font-family: ABeeZee, sans-serif;">
+                        <a class="nav-link font-weight-bold navbar-collapse" href="games.html#league" style="font-family: ABeeZee, sans-serif;">
                             LoL
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link font-weight-bold dropdown-toggle" href="games.html#ml" style="font-family: ABeeZee, sans-serif;">
+                        <a class="nav-link font-weight-bold navbar-collapse" href="games.html#ml" style="font-family: ABeeZee, sans-serif;">
                             MLBB
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link font-weight-bold dropdown-toggle" href="games.html#dota" style="font-family: ABeeZee, sans-serif;">
+                        <a class="nav-link font-weight-bold navbar-collapse" href="games.html#dota" style="font-family: ABeeZee, sans-serif;">
                             Dota 2
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link font-weight-bold dropdown-toggle" href="games.html#hs" style="font-family: ABeeZee, sans-serif;">
+                        <a class="nav-link font-weight-bold navbar-collapse" href="games.html#hs" style="font-family: ABeeZee, sans-serif;">
                             Hearthstone
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link font-weight-bold dropdown-toggle" href="contact.html" style="font-family: ABeeZee, sans-serif;">
+                        <a class="nav-link font-weight-bold" href="contact.html" style="font-family: ABeeZee, sans-serif;">
                             Contact Us
                         </a>
                     </li>
@@ -205,6 +205,11 @@
     <section class="showcase"></section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 </body>
 
 </html>
