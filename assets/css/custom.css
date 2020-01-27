@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-item:hover { 
     background-color: hsl(204, 100%, 50%, 0.4);
     
@@ -13,4 +17,22 @@
     padding-bottom: 0 !important;
     margin:0 !important;
     border:0;
+}
+
+.features-hs, .features-ml, .features-dota {
+    height: 100vh;
+}
+
+@media (max-width:767px) {
+    .fool {
+        height: 75px;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .fool {
+        height: 125px;
+    }
+
 }
