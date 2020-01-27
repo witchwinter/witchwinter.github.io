@@ -23,11 +23,9 @@ html {
     height: 100vh;
 }
 
-@media (max-width:767px) {
-    .fool {
-        height: 75px;
-    }
-    
+
+.fool {
+    height: 75px;
 }
 
 @media (min-width:768px) {
