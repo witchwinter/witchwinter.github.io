@@ -23,14 +23,3 @@ html {
     height: 100vh;
 }
 
-
-.fool {
-    height: 75px;
-}
-
-@media screen and (min-width:768px) {
-    .fool {
-        height: 125px;
-    }
-
-}
