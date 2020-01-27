@@ -28,7 +28,7 @@ html {
     height: 75px;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .fool {
         height: 125px;
     }
