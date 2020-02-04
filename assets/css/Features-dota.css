@@ -62,19 +62,25 @@
     margin-bottom: 20px;
     color: inherit;
   }
+}
 
+@media (max-width:767px) {
   .features-dota .item .description {
     font-size: 15px;
     margin-bottom: 0;
   }
-  
+}
+
+@media (max-width:767px) {
   .features-dota .item .icon {
     font-size: 40px;
     color: #ffcc1e;
     float: left;
     margin-left: -65px;
   }
+}
 
+@media (max-width:767px) {
   .features-dota img {
     width: 40%;
   }
@@ -88,23 +94,27 @@
     margin-bottom: 32px;
     color: inherit;
   }
+}
 
+@media (min-width:768px) {
   .features-dota .item .description {
     font-size: 20px;
     margin-bottom: 0;
   }
-  
+}
+
+@media (min-width:768px) {
   .features-dota .item .icon {
     font-size: 50px;
     color: #ffcc1e;
     float: left;
     margin-left: -80px;
   }
+}
 
+@media (min-width:768px) {
   .features-dota img {
     height: 200px;
   }
 }
-
-
 
