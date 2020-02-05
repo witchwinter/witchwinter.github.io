@@ -11,25 +11,54 @@ a {
 }
 
 #sidebar {
-  position: fixed;
-  right: -500px;
   background: #3a3a3a;
-  width: 35vh;
-  /*text-align: center;*/
-  z-index: 10000;
-  font-size: 14pt;
-  font-family: 'Ubuntu';
-  transition: all 400ms linear;
-  -webkit-transition: all 400ms linear;
-  -moz-transition: all 400ms linear;
-  -o-transition: all 400ms linear;
-  padding-top: 0px !important;
+  padding-top: 2rem !important;
+
 }
 
-#sidebar.active {
-  right: 0px;
-  height: 100%;
+@media (min-width:768px) {
+  #sidebar {
+    position: fixed;
+    right: -500px;    
+    width: 35vh;
+    /*text-align: center;*/
+    z-index: 10000;
+    font-size: 14pt;
+    font-family: 'Ubuntu';
+    transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    
+  }
+  #sidebar.active {
+    right: 0px;
+    height: 100%;
+  }
 }
+
+@media (max-width:767px){
+  #sidebar {
+    right: 0px;
+    height: 100%;
+  }
+  #sidebar.active {
+    position: fixed;
+    right: -500px;
+    width: 40vh;
+    /*text-align: center;*/
+    z-index: 10000;
+    font-size: 14pt;
+    font-family: 'Ubuntu';
+    transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    
+  }
+}
+
+
 
 #sidebar ul {
   padding-top: 0%;
@@ -71,6 +100,20 @@ a:visited {
   color: #c4d8e2 !important;
 }
 
+
+
+@media (min-width:768px) {
+  #nav-toggle {
+    visibility: hidden;
+  }
+}
+
+@media (max-width:767px) {
+  #nav-toggle {
+    visibility: visible;
+  }
+}
+
 #nav-toggle {
   font-size: 20pt;
   /*position: fixed;*/
@@ -86,10 +129,11 @@ a:visited {
   border-style: solid;
   color: #3a3a3a;
   z-index: 99999999;
+  
 }
 
 #nav-toggle.active {
-  right: 35vh;
+  right: 40vh;
   border-color: #6a6a6a;
   color: #6a6a6a;
 }
@@ -98,4 +142,3 @@ a:visited {
   border-color: #6a6a6a;
   color: #5e5e5e;
 }
-

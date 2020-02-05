@@ -9,8 +9,7 @@
 #sidebar {
   position: fixed;
   right: -500px;
-  background: #084127;
-  width: 35vh;
+  width: 40vh;
   /*text-align: center;*/
   z-index: 10000;
   font-size: 14pt;
@@ -49,10 +48,6 @@ a:active {
 
 a:visited {
   text-decoration: none;
-}
-
-#sidebar a {
-  color: white;
 }
 
 .here {
@@ -113,12 +108,10 @@ a:visited {
   -moz-transform: rotateZ(180deg);
   -webkit-transform: rotateZ(180deg);
   -o-transform: scale(1.05) rotateZ(180deg);
-  border-color: #119258;
-  color: #119258;
+
 }
 
 #nav-toggle:hover {
-  border-color: #11ae67;
-  color: #11ae67;
+
 }
 
